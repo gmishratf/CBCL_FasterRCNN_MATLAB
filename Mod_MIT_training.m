@@ -1,5 +1,5 @@
-path = '<ENTER YOUR CURRENT FOLDER PATH HERE>\MIT Car dataset\Anno_XML\*.xml';
-
+annotpath = '<ENTER YOUR CURRENT FOLDER PATH HERE>\MIT Car dataset\Anno_XML\*.xml';
+imgpath = '<ENTER YOUR CURRENT FOLDER PATH HERE>\MIT Car dataset\Images\*.jpg';
 vd = build_data(path);
 for i =1:3547
     vd.vehicle{i} = round(vd.vehicle{i}/4);

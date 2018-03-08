@@ -1,5 +1,5 @@
-function vd=build_data(path)
-    files = dir(path);
+function vd=build_data(annotpath, imgpath)
+    files = dir(annotpath);
     place = 1
     file_annots = cell(1,2);
     for file = files'
@@ -15,7 +15,7 @@ function vd=build_data(path)
         end
     end
     
-    files = dir('F:\Matlab\Image processing\Project\MIT Car dataset\ScaledGS\*.jpg');
+    files = dir(imgpath);
     place = 1
     for file = files'
         try
