@@ -11,7 +11,7 @@ This:
 ![alt text](https://github.com/tallestfinder/CBCL_FasterRCNN_MATLAB/blob/master/CBCL%20XML.png)
 
 
-Becomes this:
+Becomes this:  
 ![alt text](https://github.com/tallestfinder/CBCL_FasterRCNN_MATLAB/blob/master/CBCL%20Matlab.jpg)
 
 Use 'Mod_MIT_training.m' to train your detector, change parameters in the options variable.
